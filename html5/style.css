@@ -1,0 +1,18 @@
+div{
+    height: 100px;
+    width: 200px;
+    background-color: chartreuse;
+    transition-property: all;
+    transition-duration: 2s;
+    transition-timing-function: ease-in;
+    transition-delay: 1s;
+
+    transform: rotate(90   deg);
+}
+div:hover{
+    background-color: dodgerblue;
+    color: coral;
+}
+div:active{
+    background-color: darkorange;
+}

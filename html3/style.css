@@ -1,0 +1,26 @@
+ul{
+    background-color: burlywood;
+    display: flex;
+    justify-content: space-evenly;
+}
+a{
+    text-decoration: none;
+    color: rgb(237, 237, 237);
+}
+li{
+    list-style-type: none;
+    background-color: rgb(220, 56, 27);
+}
+.outer{
+    height: 400px;
+    width: 400px;
+    background-color: cornflowerblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inner{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(227, 124, 218);
+}
