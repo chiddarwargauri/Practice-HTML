@@ -1,0 +1,474 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>assignment3</title>
+</head>
+<body>
+    <center>
+        <h2>Application Form</h2>
+        </center>
+        <fieldset>
+    <legend>Personal Details</legend>
+    <form action="">
+        <table style="width:100%;height:300px;">
+    
+        <tr>
+            <td>
+                Applicant Full Name :
+            </td>
+            <td>
+                <select name="Applicant full name">
+                    <option value="">_ _select_ _</option>
+                    <option value="Mr">Mr.</option>
+                    <option value="Ms">Ms.</option>
+                    <option value="Miss">Miss.</option>
+                </select><br>
+                <input type="text"name ="Name" placeholder="Enter Your full name" required >
+            </td>
+            <td>
+                Care OF:
+            </td>
+            <td>Parents<input type="radio"name="Parents">Guardian<input type="radio"name="Guardian"> </td>
+        </tr>
+        <tr>
+            <td>
+                Father's Name :
+            </td>
+            <td>
+                <select name="Father's name">
+    
+                    <option value="Mr">Mr.</option>
+                    <option value="Ms">Ms.</option>
+                    <option value="Miss">Miss.</option>
+                </select>
+                <input type="text"name ="Name" placeholder="Enter Your father's name" required>
+            </td>
+                <td>
+                    Mother's <br> Name :
+                </td>
+                <td>
+                    <select name="Mother's name">
+                    
+                        <option value="Mrs">Mrs.</option>
+                        <option value="Ms">Ms.</option>
+                        <option value="Miss">Miss.</option>
+                    </select><br>
+                    <input type="text"name ="Name" placeholder="Enter Your mother's name " required>
+                </td>
+        </tr>
+        <tr>
+            <td>Gender
+                <td>Male<input type="radio"name="Male">Female<input type="radio"name="Female">Others<input type="radio"></td>
+            <td>Date Of birth 
+                <td><input type="date"></td>
+    
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Marital Status
+            </td>
+            <td>
+                <select name="Marital">
+                <option value="">--select--</option>
+                <option value="Married">Married</option>
+                <option value="Unmarried">Unmarried</option>
+                </select>
+            </td>
+    
+            <td>
+                Category
+            </td>
+            <td>
+                <select name="Category">
+                <option value="">--select--</option>
+                <option value="OBC">OBC</option>
+                <option value="SC">SC</option>
+                <option value="ST">ST</option>
+                <option value="VJ">VJ</option>
+                <option value="EWS">EWS</option>
+                <option value="general">general</option>
+    
+                </select>
+            </td>
+        </tr>
+    <tr>
+    <td>Handicapped </td><td>No<input type="radio"name="No">Yes<input type="radio"name="Yes"> </td>
+    
+    
+    
+    <td>Ex-serviceman </td><td>No<input type="radio"name="No">Yes<input type="radio"name="Yes"> </td>
+    
+    
+    </tr>
+    
+    <tr>
+    <td>EWS </td><td>No<input type="radio"name="No">Yes<input type="radio"name="Yes"> </td>
+    
+    <td>Religion</td>
+    <td>
+        <select name="Religion">
+            <option value="">--select--</option>
+            <option value="hindu">hindu</option>
+            <option value="muslium">muslium</option>
+            <option value="islam">islam</option>
+            </select>
+    </td>
+    
+    </tr>
+    
+    </table>
+    </fieldset>
+    <fieldset>
+        <legend>Contact Details</legend>
+    <form action="">
+    
+        <table style="width:100%;height:300px;">
+    
+        <tr>
+            <td>Mobile number</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td><td></td>
+            <td></td><td></td>
+            <td></td><td></td>
+            <td></td><td></td>
+            <td></td><td></td>
+            <td></td>
+            <td><input type="number" placeholder="Enter your mobile number"  pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+                required>
+         
+         </td>
+            <td></td>
+            <td></td><td></td>
+            <td></td>
+            <td></td>
+            <td></td><td></td>
+            <td></td><td></td>
+            <td></td><td></td>
+            <td></td><td></td>
+            <td></td>
+            <td>Email Id </td><td></td>
+            <td></td><td></td>
+            <td></td><td></td>
+            <td></td><td></td>
+            <td></td><td></td>
+            <td></td>
+            <td> <input type="email" pattern="[^@\s]+@[^@\s]+\.[^@\s]+" title="Invalid email address" required></td>
+        </tr>
+        <tr>
+            <td>Address line 1</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td><td></td>
+            <td></td><td></td>
+            <td></td><td></td>
+            <td></td><td></td>
+            <td></td><td></td>
+            <td></td>
+            <td><input type="text"></td>
+            <td></td>
+            <td></td><td></td>
+            <td></td>
+            <td></td>
+            <td></td><td></td>
+            <td></td><td></td>
+            <td></td><td></td>
+            <td></td><td></td>
+            <td></td>
+            <td>Address line 2</td>
+            <td></td>
+            <td></td><td></td>
+            <td></td><td></td>
+            <td></td><td></td>
+            <td></td><td></td>
+            <td></td>
+            <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td>
+                City
+            </td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td><td></td>
+            <td></td><td></td>
+            <td></td><td></td>
+            <td></td><td></td>
+            <td></td><td></td>
+            <td></td>
+            <td><input type="text"></td>
+            <td></td>
+            <td></td><td></td>
+            <td></td>
+            <td></td>
+            <td></td><td></td>
+            <td></td><td></td>
+            <td></td><td></td>
+            <td></td><td></td>
+            <td></td>
+            <td>State</td>
+            <td></td>
+            <td></td><td></td>
+            <td></td><td></td>
+            <td></td><td></td>
+            <td></td><td></td>
+            <td></td>
+           <td><select name="State">
+            <option value="">--select--</option>
+            <option value="maharashtra">maharashtra</option>
+            <option value="panjab">panjab</option>
+            <option value="chandigadh">chandigadh</option>
+            <option value="rajasthan">rajasthan</option>
+            <option value="bihar">bihar</option>
+            <option value="keral">keral</option>
+            <option value="telngana">telngana</option>
+            <option value="mp">mp</option>  
+            <option value="up">up</option>
+            <option value="tamilnadu">tamilnadu</option>
+        </select></td> 
+        </tr>
+        <tr>
+            <td>Pin Code</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td><td></td>
+            <td></td><td></td>
+            <td></td><td></td>
+            <td></td><td></td>
+            <td></td><td></td>
+            <td></td><td><input type="number"  maxlength="6"  pattern="[0-9]{6}" required></td>
+        </tr>
+    </table>
+    </fieldset>
+    <fieldset>
+        <legend>Qualification Details</legend>
+    <form action="">
+    
+        <table width="105%" height="300px">
+            <tr>
+                <td><b>
+                    Sr.<br>No.
+              
+            </b></td>
+                <td><b>
+                    Qualification
+                </b></td>
+                <td><b>
+                   Board/University
+            </b></td>
+                <td><b>Passing<br>Year
+            </b></td>
+            <td><b>Max Marks</b></td>
+            </b></td>
+            <td><b>Marks <br>Obtain</b></td>
+    <td><b>Percentage</b></td>
+            </tr>
+    <tr>
+        <td>
+            1
+        </td>
+        <td>
+          <select name="Qualification">
+            <option value="">--select--</option>
+            <option value="high school">high school</option>
+            <option value="graduation">graduation</option>
+            <option value="post graduation">post graduation</option>
+            
+          </select>  
+        </td>
+        <td><input type="text"></td>
+    <td><input type="number"></td>
+    <td><input type="number"></td>
+    <td><input type="number"></td>
+    <td><input type="number"></td>
+    </tr>
+    
+    <tr>
+        <td>
+            2
+        </td>
+        <td>
+          <select name="Qualification">
+            <option value="">--select--</option>
+            <option value="high school">high school</option>
+            <option value="graduation">graduation</option>
+            <option value="post graduation">post graduation</option>
+            
+          </select>  
+        </td>
+        <td><input type="text"></td>
+    <td><input type="number"></td>
+    <td><input type="number"></td>
+    <td><input type="number"></td>
+    <td><input type="number"></td>
+    </tr>
+    
+    <tr>
+        <td>
+            3
+        </td>
+        <td>
+          <select name="Qualification">
+            <option value="">--select--</option>
+            <option value="high school">high school</option>
+            <option value="graduation">graduation</option>
+            <option value="post graduation">post graduation</option>
+            
+          </select>  
+        </td>
+        <td><input type="text"></td>
+    <td><input type="number"></td>
+    <td><input type="number"></td>
+    <td><input type="number"></td>
+    <td><input type="number"></td>
+    
+    </tr>
+    <tr>
+        <td>
+            4
+        </td>
+        <td>
+          <select name="Qualification">
+            <option value="">--select--</option>
+            <option value="high school">high school</option>
+            <option value="graduation">graduation</option>
+            <option value="post graduation">post graduation</option>
+            
+          </select>  
+        </td>
+        <td><input type="text"></td>
+    <td><input type="number"></td>
+    <td><input type="number"></td>
+    <td><input type="number"></td>
+    <td><input type="number"></td>
+    
+    </tr>
+        </table>
+        
+    </fieldset>
+    
+    <fieldset>
+        <legend>Language Knowledge</legend>
+    <form action="">
+    
+        <table style="width:100%;height:300px;">
+    
+    
+            <tr>
+                <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+    
+                
+                <td>
+    Language
+                </td>
+     <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+    <td>
+    Reading
+                </td>
+                <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+    
+                <td>
+    Writing
+    
+                <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+            </td>
+    
+                <td>
+    
+    Spoken
+                </td>
+    
+            </tr>
+    
+         <tr>
+                <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+                <td>Hindi</td>
+                <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+                <td><input type="checkbox"></td>
+                <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+                <td><input type="checkbox"></td>
+                <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+                <td><input type="checkbox"></td>
+    
+         </tr>  
+         
+         <tr>
+                <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+                <td>English</td>
+                <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+                <td><input type="checkbox"></td>
+    
+                <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+                <td><input type="checkbox"></td>
+                <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+                <td><input type="checkbox"></td>
+         </tr>
+    
+         <tr>
+                <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+                <td>Urdu</td>
+                <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+                <td><input type="checkbox"></td>
+                <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+                <td><input type="checkbox"></td>
+                <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+                <td><input type="checkbox"></td>
+         </tr>
+    
+        </table>
+    </fieldset>
+    <fieldset>
+        <legend>
+        Identification Details
+        </legend>
+    <form action="">
+    
+        <table style="width:100%;height:200px;">
+    
+            <tr>
+                <td>Adhar Card Number</td>
+                <td><input type="text"></td>
+                <td>PAN card number</td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td>Upload Photo</td>
+                <td><input type="file"></td>
+                <td>Upload signature</td>
+                <td><input type="file"></td>
+            </tr>
+    
+        </table>
+    </fieldset>
+    <br>
+    <br>
+    <center>
+        
+        <input type="submit">
+        <input type="button"value="Back"
+    </center>
+    
+    
+    
+    </form>
+    <footer ><center>            Developed by:- Gauri Prakash Chiddarwar|| Under Guidance of microspectra Softwarwe Technologies PVT.LTD
+    </center>
+    </footer>
+    
+</body>
+</html>
